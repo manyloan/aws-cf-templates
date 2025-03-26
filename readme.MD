@@ -5,6 +5,7 @@ This repository provides an overview of all available AWS CloudFormation templat
 | Template Name       | Description                                                                 | Link                                   |
 |---------------------|-----------------------------------------------------------------------------|----------------------------------------|
 | **Lambda Template** | Creates a serverless Lambda function with environment-specific configurations (`dev`/`prod`). | [GitHub Repository](https://github.com/manyloan/aws-cf-lambda) |
+| **API to SQS to Lambda** | Create API Gateway, ApiKey, UsagePlan, SQS, SQS DLQ, Lambda and invoke lambda. The API will populate the SQS and the SQS will trigger the Lambda | [GitHub Repository](https://github.com/manyloan/aws-cf-lambda-sqs-api-gateway) |
 
 ---
 
